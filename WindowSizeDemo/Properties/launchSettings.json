@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WindowSizeDemo (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WindowSizeDemo (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
