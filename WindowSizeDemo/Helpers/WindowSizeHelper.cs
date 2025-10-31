@@ -10,7 +10,8 @@ public static class WindowSizeHelper
         scale = 1; 
         presenter = window?.AppWindow?.Presenter as OverlappedPresenter;
         if (window?.Content is not FrameworkElement content || content.XamlRoot is null || presenter is null) return false;
-        scale = content.XamlRoot.RasterizationScale; return true;
+        scale = content.XamlRoot.RasterizationScale;
+        return true;
     }
 
     public static void SetPreferredMinimumWidth(Window window, double width)
